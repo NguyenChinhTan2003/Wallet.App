@@ -1,0 +1,25 @@
+{
+  "id": "f26dfcc5-1219-4c63-a4f0-c540489112fc",
+  "template": "app",
+  "versions": {
+    "AbpFramework": "8.2.0",
+    "AbpStudio": "0.7.1"
+  },
+  "modules": {
+    "Wallet.App": {
+      "path": "Wallet.App.abpmdl"
+    }
+  }, 
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+        "ignoredUrls": [
+          "^/metrics$"
+      ]
+    }
+  }
+}

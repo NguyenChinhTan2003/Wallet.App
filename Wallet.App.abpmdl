@@ -1,0 +1,89 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.2.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Wallet.App.Application": {
+      "path": "src/Wallet.App.Application/Wallet.App.Application.abppkg",
+      "folder": "src"
+    },
+    "Wallet.App.Application.Tests": {
+      "path": "test/Wallet.App.Application.Tests/Wallet.App.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Wallet.App.Domain.Shared": {
+      "path": "src/Wallet.App.Domain.Shared/Wallet.App.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Wallet.App.Application.Contracts": {
+      "path": "src/Wallet.App.Application.Contracts/Wallet.App.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Wallet.App.HttpApi": {
+      "path": "src/Wallet.App.HttpApi/Wallet.App.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Wallet.App.HttpApi.Client": {
+      "path": "src/Wallet.App.HttpApi.Client/Wallet.App.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Wallet.App.Web": {
+      "path": "src/Wallet.App.Web/Wallet.App.Web.abppkg",
+      "folder": "src"
+    },
+    "Wallet.App.Web.Tests": {
+      "path": "test/Wallet.App.Web.Tests/Wallet.App.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "Wallet.App.EntityFrameworkCore.Tests": {
+      "path": "test/Wallet.App.EntityFrameworkCore.Tests/Wallet.App.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Wallet.App.EntityFrameworkCore": {
+      "path": "src/Wallet.App.EntityFrameworkCore/Wallet.App.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Wallet.App.TestBase": {
+      "path": "test/Wallet.App.TestBase/Wallet.App.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Wallet.App.Domain.Tests": {
+      "path": "test/Wallet.App.Domain.Tests/Wallet.App.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Wallet.App.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Wallet.App.HttpApi.Client.ConsoleTestApp/Wallet.App.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Wallet.App.DbMigrator": {
+      "path": "src/Wallet.App.DbMigrator/Wallet.App.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Wallet.App.Domain": {
+      "path": "src/Wallet.App.Domain/Wallet.App.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

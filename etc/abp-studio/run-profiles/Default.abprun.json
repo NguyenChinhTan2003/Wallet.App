@@ -1,0 +1,10 @@
+﻿{
+  "applications": {
+    "Wallet.App.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44388",
+      "path": "../../../src/Wallet.App.Web/Wallet.App.Web.csproj",
+      "kubernetesService": ".*-web$"
+    }
+  }
+}
